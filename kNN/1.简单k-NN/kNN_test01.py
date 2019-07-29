@@ -49,7 +49,7 @@ def classify0(inx, dataset, labels, k):
 	return label
 
 if __name__ == '__main__':
-	#创建数据集
+	# 创建数据集
 	group, labels = createDataSet()
 	#测试集
 	test = [101,20]
